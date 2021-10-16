@@ -7,7 +7,6 @@ const BoxStyle = styled.nav`
   width: 600px;
   height: 1000px;
   padding-top: 10px;
-
   @media only screen and (max-width: 600px) {
     display: flex;
     justify-content: center;
