@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.scrollmenu {
+  margin-top: 26px;
+  margin-left: 13px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scrollmenu::-webkit-scrollbar {
+  display: none;
+}
+.scrollmenu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.dot {
+  height: 84px;
+  width: 84px;
+  background-color: #ece6ff;
+  margin-right: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
